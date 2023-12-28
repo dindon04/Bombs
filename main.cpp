@@ -39,7 +39,7 @@ TEST(MaxBombs, DetonatedTest) {
     std::vector<std::vector<int>> bombs3 = { {1, 1, 5}, {10, 10, 5} };
     ASSERT_EQ(1, maxDetBombs(bombs3));
 
-    std::string absolutePath = "C:/Users/Dinara/MSU-practice/booombs/bombsFromFile.txt";
+    std::string absolutePath = " ";
     std::vector<std::vector<int>> bombsFromFile = readBombsFromFile(absolutePath);
     ASSERT_EQ(3, maxDetBombs(bombsFromFile));
 }
